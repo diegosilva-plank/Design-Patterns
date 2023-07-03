@@ -1,5 +1,5 @@
-
 import { Adapter } from "./Adapter";
+import { Builder } from "./Builder";
 import { Command } from "./Command";
 import { Decorator } from "./Decorator";
 import { Factory } from "./Factory";
@@ -13,4 +13,5 @@ import { Strategy } from "./Strategy";
 // Decorator.main()
 // Command.main()
 // Singleton.main()
-Adapter.main()
+// Adapter.main()
+Builder.main()
