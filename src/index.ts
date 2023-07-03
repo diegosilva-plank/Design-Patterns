@@ -5,6 +5,7 @@ import { Composite } from "./Composite";
 import { Decorator } from "./Decorator";
 import { Factory } from "./Factory";
 import { Observer } from "./Observer";
+import { Prototype } from "./Prototype";
 import { Singleton } from "./Singleton";
 import { Strategy } from "./Strategy";
 
@@ -16,4 +17,5 @@ import { Strategy } from "./Strategy";
 // Singleton.main()
 // Adapter.main()
 // Builder.main()
-Composite.main()
+// Composite.main()
+Prototype.main()
