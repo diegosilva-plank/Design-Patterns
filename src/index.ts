@@ -1,6 +1,7 @@
 import { Adapter } from "./Adapter";
 import { Builder } from "./Builder";
 import { Command } from "./Command";
+import { Composite } from "./Composite";
 import { Decorator } from "./Decorator";
 import { Factory } from "./Factory";
 import { Observer } from "./Observer";
@@ -14,4 +15,5 @@ import { Strategy } from "./Strategy";
 // Command.main()
 // Singleton.main()
 // Adapter.main()
-Builder.main()
+// Builder.main()
+Composite.main()
