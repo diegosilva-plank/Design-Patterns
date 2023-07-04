@@ -1,4 +1,5 @@
 import { Adapter } from "./Adapter";
+import { Bridge } from "./Bridge";
 import { Builder } from "./Builder";
 import { Command } from "./Command";
 import { Composite } from "./Composite";
@@ -20,4 +21,5 @@ import { Strategy } from "./Strategy";
 // Builder.main()
 // Composite.main()
 // Prototype.main() 
-Facade.main()
+// Facade.main()
+Bridge.main()
