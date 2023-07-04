@@ -22,5 +22,5 @@ export class Switch {
     removeGames = (...games: string[]) => this.gamesCheck.removeGames(...games)
     volumeUp = (amount: number = 1) => this.volume.up(amount)
     volumeDown = (amount: number = 1) => this.volume.down(amount)
-
+    checkVolume = () => this.volume.check()
 }

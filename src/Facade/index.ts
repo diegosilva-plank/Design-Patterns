@@ -13,5 +13,8 @@ export class Facade {
         mySwitch.openGame('Mario Odyssey')
         mySwitch.ejectGame()
         mySwitch.openGame('Zelda BOTW')
+        mySwitch.volumeUp(5)
+        mySwitch.volumeDown()
+        console.log(mySwitch.checkVolume())
     }
 }
