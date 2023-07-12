@@ -10,6 +10,7 @@ import { Observer } from "./Observer";
 import { Prototype } from "./Prototype";
 import { Singleton } from "./Singleton";
 import { Strategy } from "./Strategy";
+import { TemplateMethod } from "./TemplateMethod";
 
 // Observer.main()
 // Factory.main()
@@ -22,4 +23,5 @@ import { Strategy } from "./Strategy";
 // Composite.main()
 // Prototype.main() 
 // Facade.main()
-Bridge.main()
+// Bridge.main()
+TemplateMethod.main()
