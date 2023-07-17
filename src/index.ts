@@ -6,6 +6,7 @@ import { Composite } from "./Composite";
 import { Decorator } from "./Decorator";
 import { Facade } from "./Facade";
 import { Factory } from "./Factory";
+import { Iterator } from "./Iterator";
 import { Observer } from "./Observer";
 import { Prototype } from "./Prototype";
 import { Singleton } from "./Singleton";
@@ -24,4 +25,5 @@ import { TemplateMethod } from "./TemplateMethod";
 // Prototype.main() 
 // Facade.main()
 // Bridge.main()
-TemplateMethod.main()
+// TemplateMethod.main()
+Iterator.main()
