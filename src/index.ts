@@ -9,6 +9,7 @@ import { Factory } from "./Factory";
 import { Iterator } from "./Iterator";
 import { Observer } from "./Observer";
 import { Prototype } from "./Prototype";
+import { Proxy } from "./Proxy";
 import { Singleton } from "./Singleton";
 import { Strategy } from "./Strategy";
 import { TemplateMethod } from "./TemplateMethod";
@@ -26,4 +27,5 @@ import { TemplateMethod } from "./TemplateMethod";
 // Facade.main()
 // Bridge.main()
 // TemplateMethod.main()
-Iterator.main()
+// Iterator.main()
+Proxy.main()
