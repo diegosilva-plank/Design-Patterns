@@ -1,6 +1,7 @@
 import { Adapter } from "./Adapter";
 import { Bridge } from "./Bridge";
 import { Builder } from "./Builder";
+import { ChainOfResponsibility } from "./ChainOfResponsibility";
 import { Command } from "./Command";
 import { Composite } from "./Composite";
 import { Decorator } from "./Decorator";
@@ -28,4 +29,5 @@ import { TemplateMethod } from "./TemplateMethod";
 // Bridge.main()
 // TemplateMethod.main()
 // Iterator.main()
-Proxy.main()
+// Proxy.main()
+ChainOfResponsibility.main()
