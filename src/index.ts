@@ -7,6 +7,7 @@ import { Composite } from "./Composite";
 import { Decorator } from "./Decorator";
 import { Facade } from "./Facade";
 import { Factory } from "./Factory";
+import { Interpreter } from "./Interpreter";
 import { Iterator } from "./Iterator";
 import { Observer } from "./Observer";
 import { Prototype } from "./Prototype";
@@ -30,4 +31,5 @@ import { TemplateMethod } from "./TemplateMethod";
 // TemplateMethod.main()
 // Iterator.main()
 // Proxy.main()
-ChainOfResponsibility.main()
+// ChainOfResponsibility.main()
+Interpreter.main()
