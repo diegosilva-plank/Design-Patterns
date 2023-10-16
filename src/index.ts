@@ -13,6 +13,7 @@ import { Observer } from "./Observer";
 import { Prototype } from "./Prototype";
 import { Proxy } from "./Proxy";
 import { Singleton } from "./Singleton";
+import { State } from "./State";
 import { Strategy } from "./Strategy";
 import { TemplateMethod } from "./TemplateMethod";
 
@@ -32,4 +33,5 @@ import { TemplateMethod } from "./TemplateMethod";
 // Iterator.main()
 // Proxy.main()
 // ChainOfResponsibility.main()
-Interpreter.main()
+// Interpreter.main()
+State.main()
