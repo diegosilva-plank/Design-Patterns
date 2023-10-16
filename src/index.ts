@@ -1,3 +1,4 @@
+import { AbstractFactory } from "./AbstractFactory";
 import { Adapter } from "./Adapter";
 import { Bridge } from "./Bridge";
 import { Builder } from "./Builder";
@@ -34,4 +35,5 @@ import { TemplateMethod } from "./TemplateMethod";
 // Proxy.main()
 // ChainOfResponsibility.main()
 // Interpreter.main()
-State.main()
+// State.main()
+AbstractFactory.main()
