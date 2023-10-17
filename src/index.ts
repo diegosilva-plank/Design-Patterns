@@ -8,6 +8,7 @@ import { Composite } from "./Composite";
 import { Decorator } from "./Decorator";
 import { Facade } from "./Facade";
 import { Factory } from "./Factory";
+import { Flyweight } from "./Flyweight";
 import { Interpreter } from "./Interpreter";
 import { Iterator } from "./Iterator";
 import { Mediator } from "./Mediator";
@@ -40,4 +41,5 @@ import { TemplateMethod } from "./TemplateMethod";
 // State.main()
 // AbstractFactory.main()
 // Mediator.main()
-Memento.main()
+// Memento.main()
+Flyweight.main()
