@@ -10,6 +10,7 @@ import { Facade } from "./Facade";
 import { Factory } from "./Factory";
 import { Interpreter } from "./Interpreter";
 import { Iterator } from "./Iterator";
+import { Mediator } from "./Mediator";
 import { Observer } from "./Observer";
 import { Prototype } from "./Prototype";
 import { Proxy } from "./Proxy";
@@ -36,4 +37,5 @@ import { TemplateMethod } from "./TemplateMethod";
 // ChainOfResponsibility.main()
 // Interpreter.main()
 // State.main()
-AbstractFactory.main()
+// AbstractFactory.main()
+Mediator.main()
