@@ -11,6 +11,7 @@ import { Factory } from "./Factory";
 import { Interpreter } from "./Interpreter";
 import { Iterator } from "./Iterator";
 import { Mediator } from "./Mediator";
+import { Memento } from "./Memento";
 import { Observer } from "./Observer";
 import { Prototype } from "./Prototype";
 import { Proxy } from "./Proxy";
@@ -38,4 +39,5 @@ import { TemplateMethod } from "./TemplateMethod";
 // Interpreter.main()
 // State.main()
 // AbstractFactory.main()
-Mediator.main()
+// Mediator.main()
+Memento.main()
